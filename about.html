@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="all_main.css">
+    <title>Document</title>
+</head>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $("#name").on('change', function () {
+            $(".data").hide();
+            $("#" + $(this).val()).fadeIn(700); // Corrected 'fadIn' to 'fadeIn'
+        }).change();
+    });
+</script>
+
+<body>
+    <div id="header">
+        <div id="first">
+            <h1>MK</h1>
+            <h2>T-sirt</h2>
+        </div>
+        <div id="search">
+            <img src="search.png" alt="">
+            <input type="text" placeholder="search" style="font-size: larger;">
+        </div>
+        <div id="button">
+            <a class="a" href="home.html">Home</a>
+            <a class="a" href="women.html">Women</a>
+            <a class="a" href="men.html">Men</a>
+            <a class="a" href="sales.html">Sales</a>
+            <a class="a" href="about.html" style="color: blue;">About</a>
+            <a class="a" href="contact.html">Contact</a>
+            <a class="a" href="login.html"><img id="login" src="profile.png" alt=""></a>
+            <a class="a" href="login.html">Log In</a>
+        </div>
+    </div>
+    <h1 style="text-decoration: underline; text-decoration-color: blue; text-align: center;margin-top: 100px;">Our Story
+    </h1>
+    <!-- Mid group -->
+    <div id="mid">
+        <div id="menu">
+            <h1>Hi! I'm <h style="color: blue; font-size: 40px;">Mahboob Alam</h>
+            </h1>
+            <h3>And I'm <h2> Student Of Diploma</h2>
+            </h3>
+            <p>I'm pursing a diploma "CE" second year at rk university collage. <br> As a fresher , I don't have any
+                experience ,but I have a intern <br> experience I completed as a vs code course a few month back...</p>
+            <select name="name" id="name">
+                <option value="default" id="default">More detail</option>
+                <option value="Dream"> The Dream Begins</option>
+                <option value="Spark">The Spark of Creativity</option>
+                <option value="Challenges"> The Challenges Faced</option>
+                <option value="Connecting"> Connecting with Your Audience</option>
+                <option value="Facing">Facing Adversity</option>
+                <option value="Celebrating">Celebrating Success</option>
+                <option value="Making"> Making a Difference</option>
+                <option value="Future">The Future Unfolds</option>
+            </select>
+
+            <div class="content">
+                <div id="Dream" class="data">
+                    <p class="border">The Dream Begins</p>
+                    <p>Once upon a time in a world where dreams knew no bounds, you, an ambitious and passionate
+                        individual, embarked on a remarkable journey as the owner of an online t-shirt shopping
+                        business. With unwavering determination and a vision to share your love for creativity and
+                        self-expression, you set out to make your dream a reality.</p>
+                </div>
+                <div id="Spark" class="data">
+                    <p class="border">The Spark of Creativity</p>
+                    <p>
+                        Your journey began with an unshakable belief that t-shirts could be more than just clothing.
+                        They could be a canvas for art, a medium for expression, and a symbol of individuality. Your
+                        heart was set on creating a brand that celebrated uniqueness and allowed people to wear
+                        their passions on their sleeves—literally.
+                    </p>
+                </div>
+                <div id="Challenges" class="data">
+                    <p class="border"> The Challenges Faced</p>
+                    <p>
+                        The path was not without its challenges. Building an online business from scratch required a
+                        mix of patience, dedication, and the ability to learn from mistakes. You faced countless
+                        sleepless nights, financial constraints, and moments of self-doubt, but you never gave up.
+                    </p>
+                </div>
+                <div id="Connecting" class="data">
+                    <p class="border">Connecting with Your Audience</p>
+                    <p>You didn't stop at creating t-shirts; you also built a community of like-minded individuals
+                        who shared your vision. Through social media, creative collaborations, and engaging content,
+                        you connected with your audience on a personal level, making them feel like they were a part
+                        of something special.
+                    </p>
+                </div>
+                <div id="Facing" class="data">
+                    <p class="border">Facing Adversity</p>
+                    <p>
+                        Throughout your journey, you faced adversity. There were times when sales were slow, when
+                        supply chains were disrupted, and when global events threw unexpected challenges your way.
+                        But you always found a way to adapt, pivot, and come out stronger.
+                    </p>
+                </div>
+                <div id="Celebrating" class="data">
+                    <p class="border">Celebrating Success</p>
+                    <p>
+                        Your persistence paid off. You celebrated every milestone, from your first sale to your
+                        1,000th, 10,000th, and beyond. You took pride in the positive reviews from customers who
+                        loved your designs and the sense of empowerment your brand provided.
+                    </p>
+                </div>
+                <div id="Making" class="data">
+                    <p class="border"> Making a Difference</p>
+                    <p>
+                        As your business grew, you embraced the opportunity to make a difference. You used your
+                        success to support causes you cared about and initiated projects that gave back to the
+                        community. Your business became not just a source of income but a force for good.
+                    </p>
+                </div>
+                <div id="Future" class="data">
+                    <p class="border">The Future Unfolds</p>
+                    <p>
+                        As you continue to write your story, the future holds infinite possibilities. Your vision
+                        expands, and your brand reaches new horizons. Your dream of making the world a more colorful
+                        and expressive place is now a shared dream among the many who have been touched by your
+                        journey.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div id="photo">
+            <div class="box">
+                <div class="content1">
+                    <img id="img" src="me.jpg" alt="">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bttn">
+        <div class="b1">
+            <a href="sales.html">
+                <img src="back button.png" alt="">&nbsp;
+                privous
+            </a>
+        </div>
+        <div class="b2">
+            <a href="contact.html">Next
+
+                <img src="next_btn.png" alt=""></a>
+        </div>
+
+    </div>
+    <!-- footer -->
+    <div id="footer">
+        <div id="footer1">
+            <a href="home.html">Home</a>
+            <br>
+            <br>
+            <a href="women.html">Women</a>
+            <br>
+            <br>
+            <a href="men.html">Men</a>
+            <br>
+            <br>
+            <a href="sales.html">Sales</a>
+            <br>
+            <br>
+            <a href="about.html">About</a>
+        </div>
+        <div id="footer2">
+            <a href="">FAQ</a>
+            <br>
+            <br>
+            <a href="">Shopping & Returns</a>
+            <br>
+            <br>
+            <a href="">Store Policy</a>
+            <br>
+            <br>
+            <a href="">Paymen methods</a>
+        </div>
+        <div id="footer3">
+            <a href="">Instagram</a>
+            <br>
+            <br>
+            <a href="">Pinterest</a>
+            <br>
+            <br>
+            <a href="">Facebook</a>
+            <br>
+            <br>
+            <a href="">Twiter</a>
+        </div>
+        <div id="footer4">
+            <h2 style="margin-top: 0px;">Join our mailing list</h2>
+            <p1 style="font-size: large;  ">and get 10% off</p1>
+            <br>
+            <input style="background-color: transparent; color: white;
+        border: 3px solid white;
+        height:40px;width: 200px; margin: 10px 0px;" type="text" placeholder="Enter your email here">
+            <br>
+            <p style="width: 131px;" id="p">Subscribe Now</p>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html>

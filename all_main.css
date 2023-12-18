@@ -1,0 +1,230 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#header
+{
+    height: 70px;
+    position: fixed;
+    top: 0px;
+    background-color: white;
+    width: 100%;
+    height: 100px;
+}
+
+ #first,#search,#button
+{
+    margin-top: -20px;
+    margin-left: 60px;
+    display: inline-block;
+}
+
+#first h2
+{
+    color: blue;
+    margin-top: -30px;
+}
+#search img{
+    width: 30px;
+}
+#search input{
+    border: transparent;
+    background-color: transparent;
+    border: transparent;
+    border-bottom: 3px solid black;
+    margin-top: -10px;
+}
+input:focus {
+    outline: none;
+    
+  }
+  
+#button
+{
+    display: inline-block;
+    margin-left: 60px;
+}
+#button a{
+    margin-left: 60px;
+    font-size: larger;
+    text-decoration: none;
+    color: black;
+}
+ #login{
+    width: 40px;
+    margin-bottom: -10px;
+    margin-right: -60px;
+    background-color: transparent;
+}
+#button a img
+{
+    width: 40px;
+    margin-bottom: -10px;
+}
+
+#footer
+{
+    height: 300px;
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    display: flex;
+
+}
+#footer1,#footer2,#footer3,#footer4
+{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+#footer1
+{
+    margin-top: 50px;
+    margin-left:300px ;
+}
+#footer2
+{
+    width: 15%;
+}
+#footer4
+{
+    margin-left: 100px;
+}
+#footer4 input{
+    font-size: large;
+}
+::placeholder {
+    color: white;
+    font-size: large;
+    text-align: center;
+  }
+#footer1 a,#footer2 a,#footer3 a,#footer4 a
+{
+    text-decoration: none;
+    color: white;
+    font-size:x-large;
+}
+#footer4 button{
+    border-radius: 30px ; 
+    background-color: blue;
+    margin: 10px 0px; 
+    height:40px; 
+    width: 200px;
+    border-color: transparent;
+}
+#footer4 p{
+    color: white; 
+    font-size: larger;
+    margin-top: 10px;
+    border: 2px solid blue;
+    text-align: center;
+    height: 30px;
+    padding-top: 7px;
+    background-color: blue;
+    border-radius: 30px ;
+}
+/* Hover effect */
+#button a:hover,
+.group212 a:hover,
+#footer1 a:hover,
+#footer2 a:hover,
+#footer3 a:hover
+{
+    color: blue;
+}
+#footer4 p:hover{
+    background-color: transparent;
+    color: blue;
+    
+}
+.bttn{
+    display: flex;
+}
+
+.b1
+{
+    display: flex;
+    border: 3px solid blue;
+    background-color: blue;
+    /* color: white; */
+    width: 200px;
+    justify-content: center;
+
+    margin-left: 37%;
+
+}
+.b1 a,.b2 a{
+    text-decoration: none;
+    color:white ;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+.b1 img,.b2 img{
+    width: 15px;
+    margin-top: 3px;
+}
+.b1,.b2{
+    transition: 0.5s;
+    background-color: white;
+     font-family: 'Montserrat', sans-serif;
+            text-transform: capitalize;
+            background: linear-gradient(to right,blue  50%, #27e8a7  50%);
+            background-size: 200% 100%;
+            border: 3px solid blue; 
+            border-radius: 30px;
+            
+}
+.b2{
+    text-decoration: none;
+    color:blue ;
+    width: 180px;
+    font-size: 20px;
+    padding: 5px 10px;
+    justify-content: center;
+    display: flex;
+    border: 3px solid blue;
+    margin-left: 10px;
+}
+.b1 a:hover,.b2 a:hover{
+    color: blue;
+}
+.b1:hover,.b2:hover{
+  background-position: 200px 0;
+}
+
+/* animation */
+#p{
+    transition: 0.5s;
+    width: 200px;
+    font-size: 30px;
+            font-family: 'Montserrat', sans-serif;
+            text-transform: capitalize;
+            background: linear-gradient(to right, transparent 50%, #27e8e7 50%);
+            background-size: 200% 100%;
+            border: 4px solid #27e8a7;
+}
+#p:hover{
+    background-position: 200px 0;
+}
+#singup{
+    transition: 0.5s;
+    width: 200px;
+    font-size: 30px;
+            font-family: 'Montserrat', sans-serif;
+            text-transform: capitalize;
+            background: linear-gradient(to right, transparent 50%, #27e8e7 50%);
+            background-size: 200% 100%;
+            border: 4px solid #27e8a7;
+}
+#signup{
+    background-position: 200px 0;
+}
+.group212 a {
+    border: none;
+    border-bottom: 2px solid transparent;
+}
+
+.group212 a:hover {
+    border-bottom: 2px solid blue;
+}

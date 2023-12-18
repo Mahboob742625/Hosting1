@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="all-cloth.css">
+    <link rel="stylesheet" href="all_main.css">
+
+    <title>Document</title>
+</head>
+<script>
+    function heart_empty()
+    {
+        document.getElementById("heart").src = "heart_full.webp";
+    }
+    function heart_full()
+    {
+        document.getElementById("heart").src = "heart.png";
+    }
+    function first()
+    {
+        document.getElementById("img").src = "72.webp";
+    }
+    function first1()
+    {
+        document.getElementById("img").src = "home_image/h7.webp";
+    }
+    function second()
+    {
+        document.getElementById("img").src = "73.webp";
+    }
+    function third()
+    {
+        document.getElementById("img").src = "home_image/h7.webp";
+    }
+    // Product details
+    function toggleText() {
+            let points =
+                document.getElementById("points");
+ 
+            let showMoreText =
+                document.getElementById("moreText");
+ 
+            let buttonText =
+                document.getElementById("textButton");
+            if (points.style.display === "none") {
+ 
+                showMoreText.style.display = "none";
+
+                points.style.display = "inline";
+ 
+                buttonText.innerHTML = "Product Details";
+            }
+ 
+            else {
+                showMoreText.style.display = "inline";
+ 
+                points.style.display = "none";
+ 
+                buttonText.innerHTML = " Less Details";
+            }
+        }
+</script>
+<body>
+    <div id="header">
+        <div id="first">
+            <h1>MK</h1>
+            <h2>T-sirt</h2>
+        </div>
+        <div id="search">
+            <img src="search.png" alt="">
+            <input type="text" placeholder="search" style="font-size: larger;">
+        </div>
+        <div id="button">
+            <a href="home.html">Home</a>
+            <a href="women.html">Women</a>
+            <a href="men.html" >Men</a>
+            <a href="sales.html">Sales</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="login.html"><img id="login" src="profile.png" alt=""></a>
+            <a href="login.html">Log In</a>
+        </div>
+    </div>
+    <!-- m1-cloth -->
+    <div id="cloth">
+        <div class="first1" id="first1">
+            <div id="first11">
+                <img id="img" src="home_image/h7.webp" alt="">
+            </div>
+            <div id="first12">
+                <div class="orther">
+                    <img src="72.webp" alt=""onmousemove="first()" onmouseout="first1()" >
+                </div>
+                <div class="orther">
+                    <img src="73.webp" alt="" onmouseover="second()" onmouseout="first1()">
+                </div>
+                <div class="orther">
+                    <img src="home_image/h7.webp" alt="" onmouseover="third()" onmouseout="first1()">
+                </div>
+            </div>
+        </div>
+        <div class="first1" id="first2">
+            <h3>
+                Leotude
+                <br>
+                Men Printed Round Neek Cotton
+            </h3>
+            <p>₹291</p>
+            <p>Size</p>
+            <select>
+                <option value="" >Large</option>
+                <option value="" selected>Medium</option>
+                <option value="">Small</option>
+            </select>
+            <br>
+            <p>Quantity</p>
+            <input type="number" value="1">
+            <br>
+            <input id="add_to_cart" type="submit" value="Add to cart">
+                <img id="heart" src="heart.png" alt="" onclick="heart_empty()" ondblclick="heart_full()">
+                <br>
+                <input id="buy" type="submit"value="Buy">
+              <!-- product information -->
+              <br>
+              <button onclick="toggleText()" id="textButton">
+                Product Details
+           </button>
+            <p>
+               
+                <br>
+                <span id="points"></span>
+                <span id="moreText"> Type:Round tshirt <br>
+                    Sleeve:Full Sleeve <br>
+                    Fit:Regular <br>
+                    Fabric:Cotton Blend <br>
+                    Pack of:1 <br>
+                    Style Code:All RBCPON SKY-One <br>
+                    Neck Type:Round Neck <br>
+                    Ideal For:Women <br>
+                    Size:S/M/L <br>
+                    Pattern:Printed <br>
+                    Suitable For:Western Wear <br>
+                    Fabric Care:Regular Machine Wash <br>
+                    Net Quantity:1
+                </span>
+                <br>
+            </p>
+        </div>
+    </div>
+    <h1 style="text-align: center;">Releated Product</h1>
+    <div id="last">
+        <div class="last1">
+            <a href="w1.html">
+                <img src="w1_1.webp" alt="">
+            </a>
+        </div>
+        <div class="last1">
+            <a href="w2.html">
+                <img src="w2_3.webp" alt="">
+            </a>
+        </div>
+        <div class="last1">
+            <a href="w3.html">
+                <img src="home_image/h5.webp" alt="">
+            </a>
+        </div>
+        <div class="last1">
+            <a href="w7.html">
+                <img src="home_image/h9.webp" alt="">
+            </a>
+        </div>
+       
+    </div>
+    <!-- footer -->
+    <div id="footer">
+        <div id="footer1">
+            <a href="home.html">Home</a>
+            <br>
+            <br>
+            <a href="women.html">Women</a>
+            <br>
+            <br>
+            <a href="men.html">Men</a>
+            <br>
+            <br>
+            <a href="sales.html">Sales</a>
+            <br>
+            <br>
+            <a href="about.html">About</a>
+        </div>
+        <div id="footer2">
+            <a href="">FAQ</a>
+            <br>
+            <br>
+            <a href="">Shopping & Returns</a>
+            <br>
+            <br>
+            <a href="">Store Policy</a>
+            <br>
+            <br>
+            <a href="">Paymen methods</a>
+        </div>
+        <div id="footer3">
+            <a href="">Instagram</a>
+            <br>
+            <br>
+            <a href="">Pinterest</a>
+            <br>
+            <br>
+            <a href="">Facebook</a>
+            <br>
+            <br>
+            <a href="">Twiter</a>
+        </div>
+        <div id="footer4">
+            <h2 style="margin-top: 0px;">Join our mailing list</h2>
+            <p1 style="font-size: large;  ">and get 10% off</p1>
+            <br>
+            <input style="background-color: transparent; color: white;
+        border: 3px solid white;
+        height:40px;width: 200px; margin: 10px 0px;" type="text" placeholder="Enter your email here">
+            <br>
+            
+                <p id="p">Subscribe Now</p>
+            </button>
+        </div>
+    </div>
+    </div>
+</body>
+
+</html> 

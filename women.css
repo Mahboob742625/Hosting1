@@ -1,0 +1,38 @@
+
+.group2
+{
+    display: flex;
+    height: 600px;
+}
+.group21
+{
+    margin: 25px;
+    width: 30%;
+}
+.group211
+{
+   height: 400px;
+    
+}
+.group212
+{
+   height: 140px;
+    
+}
+.group211 img{
+    height: 400px;
+    width: 100%;
+}
+.group212 p{
+    font-size: larger;
+    margin: 10px;
+    text-align: justify;
+}
+.group212 p a{
+    text-decoration: none;
+    color: black;
+}
+strike
+{
+    color: orangered;
+}

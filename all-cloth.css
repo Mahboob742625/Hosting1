@@ -1,0 +1,177 @@
+
+/* cloth */
+#cloth
+{
+    /* border: 2px solid black; */
+    height: 690px;
+    margin-top: 100px;
+    display: flex;
+}
+.first1
+{
+    /* border: 2px solid green; */
+    width: 30%;
+    height: 670px;
+}
+#first1
+{
+    margin-left: 300px;
+}
+#first11
+{
+    /* border: 2px solid red; */
+    height: 448px;
+}
+#first12
+{
+    height: 150px;
+    margin-top: 20px;
+    margin-left: 7px;
+    display: flex;
+}
+#first11 img{
+    width: 100%;
+    height: 448px;
+}
+#first2{
+    padding-left: 30px;
+}
+.orther
+{
+    width: 33%;
+}
+#cloth input,select{
+    border: 2px solid black;
+    font: medium;
+}
+.orther img{
+    width: 100%;
+    height: 150px;
+}
+select,input[type=number]{
+    font-size: 15px;
+    padding: 5px;
+}
+#add_to_cart
+{
+    background-color: blue; 
+    border-color:transparent; 
+    height: 30px;
+    margin-top: 20px; 
+    width: 40%; 
+    border-radius: 30px;
+    height: 40px;
+    color: white;
+    transition: 0.5s;
+      font-family: 'Montserrat', sans-serif;
+            text-transform: capitalize;
+            background: linear-gradient(to right, blue 50%, #27e8e7 50%);
+            background-size: 200% 100%;
+            border: 3px solid blue;
+
+}
+#add_to_cart:hover{
+    background-color: transparent;
+    color: blue;
+    border-color: blue;
+    background-position: 178px 0;
+}
+#heart
+{
+    width: 6%;
+    height: 30px;
+    /* border: 2px solid black; */
+    margin-left: 5px;
+    margin-bottom: -12px;
+    padding: 2px;
+    cursor: pointer;
+}
+#buy
+{
+    width: 50%;
+    margin-top: 10px;
+    height: 30px;
+    color: white;
+    height: 40px;
+    border-radius: 30px;
+    background-color: blue;
+    border: transparent;
+    border: 2px solid blue;
+    transition: 0.5s;
+    font-family: 'Montserrat', sans-serif;
+          text-transform: capitalize;
+          background: linear-gradient(to right, blue 50%, #27e8e7 50%);
+          background-size: 200% 100%;
+          border: 3px solid blue;
+}
+#buy:hover{
+    background-color: transparent;
+    color: blue;
+    border-color: blue;
+    background-position: 222px 0;
+}
+#moreText {
+ 
+    /* Display nothing for the element */
+    display: none;
+}
+#textButton
+{
+    background-color: blue; 
+    border-color:transparent; 
+    height: 30px;
+    margin-top: 20px; 
+    border-radius: 30px;
+    margin-bottom: -20px;
+    width: 25%; 
+    height: 40px;
+    color: white;
+    transition: 0.5s;
+      font-family: 'Montserrat', sans-serif;
+            text-transform: capitalize;
+            background: linear-gradient(to right, blue 50%, #27e8e7 50%);
+            background-size: 200% 100%;
+            border: 3px solid blue;
+
+}
+#textButton:hover{
+    background-color: transparent;
+    color: blue;
+    border-color: blue;
+    background-position: 108px 0;
+}
+#last
+{
+    /* border: 2px solid blueviolet; */
+    display: flex;
+    width: 50%;
+    margin-left: 25%;
+    margin: 3% 25%;
+}
+.last1 {
+    /* border: 2px solid red; */
+    width: 25%;
+    margin: 0px 5px;
+    height: 200px;
+  overflow: hidden;
+    position: relative;
+  }
+  
+  .last1 img {
+    width: 100%;
+    transition: transform 0.5s ease;
+    height: 200px;
+  }
+  
+  .last1:hover img {
+    transform: scale(1.2);
+  }
+  
+#add_to_cart:hover,
+#buy:hover{
+    cursor: pointer;
+    background-color: transparent;
+    color: blue;
+    border-color: blue;
+}
+
